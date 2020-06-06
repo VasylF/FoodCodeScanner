@@ -1,0 +1,968 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0798C6BB0C582DFD3EBC05A7DA8E01FE /* GzipSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B9EC5688BAB123FFAA4834A44305F7A1 /* GzipSwift-dummy.m */; };
+		33A93F3C217C783914E37958EB3720D5 /* Pods-FoodCodeScanner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 56FD3243B26E69E30CE5B8BDB81FF3F9 /* Pods-FoodCodeScanner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DAAF38DB2F536E9271A511A0014031B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		6CD711681021B2E073F7950C75C0C3AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		83BE21CB0BDFCC187C0E4959770B2520 /* Pods-FoodCodeScannerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2F91B727BE47EB7F1454FC424DCB33 /* Pods-FoodCodeScannerTests-dummy.m */; };
+		A7B93C29356FEE0B40BEF16D23C8EE61 /* Pods-FoodCodeScanner-FoodCodeScannerUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E008C19015D0EE5E15DC85697237F0B /* Pods-FoodCodeScanner-FoodCodeScannerUITests-dummy.m */; };
+		ADDAF4463DFB2ECD76C36FACC14A2C6A /* Pods-FoodCodeScannerTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BDF1CC5FD0D4F427A3FBA51B19F3D9F0 /* Pods-FoodCodeScannerTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE60E80D355466904F1FDAE558DD3BD5 /* GzipSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A2C7D551E24E9642739323CCDE59ACA0 /* GzipSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C955F369481D455882D25546353D6B6D /* Pods-FoodCodeScanner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8833D39DE22547CD5F84C1420F16F699 /* Pods-FoodCodeScanner-dummy.m */; };
+		CCFCCF089AA4D1FDB1125284E824BC6C /* Pods-FoodCodeScanner-FoodCodeScannerUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C421E6F69FFD16D9372F925B5DA6855 /* Pods-FoodCodeScanner-FoodCodeScannerUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D96C844A2DC0C2E38247A953D0FD97DF /* Data+Gzip.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD40C0D25002629736F37FC5B1F4F81 /* Data+Gzip.swift */; };
+		E15BB42C4309A1F5296DCA14D982E41C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		F993FF45C750FB9929AE58714C8F3317 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		698993B5BD50967CFC782C59BACEBAD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0C51EB13373A19AF5A1D2BA49677E45;
+			remoteInfo = "Pods-FoodCodeScanner";
+		};
+		839D58D4E326E47EA99F1F8DCE8471AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8868051ECB7CB2E1A56270E3A6281973;
+			remoteInfo = GzipSwift;
+		};
+		E9645CFCCD2FD70EE8BAD8108AEF09E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8868051ECB7CB2E1A56270E3A6281973;
+			remoteInfo = GzipSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		040DB1A15C98D5F84AE608D237EC10CC /* Pods-FoodCodeScanner-FoodCodeScannerUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FoodCodeScanner-FoodCodeScannerUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		076596BA5E046B9AEB5978E0F53B87F6 /* Pods_FoodCodeScannerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FoodCodeScannerTests.framework; path = "Pods-FoodCodeScannerTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C2722990B1DF305A6F8DF64651D0FAA /* Pods-FoodCodeScanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FoodCodeScanner.release.xcconfig"; sourceTree = "<group>"; };
+		0E008C19015D0EE5E15DC85697237F0B /* Pods-FoodCodeScanner-FoodCodeScannerUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FoodCodeScanner-FoodCodeScannerUITests-dummy.m"; sourceTree = "<group>"; };
+		1241FE1566114EBC4C1A5CDB89DE5176 /* GzipSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GzipSwift.release.xcconfig; sourceTree = "<group>"; };
+		144D90AC44A6AE9000AE71A58E7D6234 /* Gzip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Gzip.framework; path = GzipSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18BD6E58F3A000CB14AC163E09E8E30C /* Pods-FoodCodeScanner-FoodCodeScannerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FoodCodeScanner-FoodCodeScannerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1E58FB476010D82605C4A87D8CA52DBB /* GzipSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GzipSwift-prefix.pch"; sourceTree = "<group>"; };
+		2E8172AD2A00233EAC6237D096FCB443 /* Pods-FoodCodeScanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FoodCodeScanner.debug.xcconfig"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		34AD3BB0ACAC188075883595A505F0A8 /* Pods-FoodCodeScannerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FoodCodeScannerTests.release.xcconfig"; sourceTree = "<group>"; };
+		3FBB27D302E5313C64F1C4053A518828 /* GzipSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GzipSwift.modulemap; sourceTree = "<group>"; };
+		3FC7CC05BCF5B021E91A5D39A49FD382 /* Pods-FoodCodeScannerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FoodCodeScannerTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4C421E6F69FFD16D9372F925B5DA6855 /* Pods-FoodCodeScanner-FoodCodeScannerUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FoodCodeScanner-FoodCodeScannerUITests-umbrella.h"; sourceTree = "<group>"; };
+		565EBA36CE07A6BD55C05FCCED13601C /* Pods-FoodCodeScanner-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FoodCodeScanner-Info.plist"; sourceTree = "<group>"; };
+		56FD3243B26E69E30CE5B8BDB81FF3F9 /* Pods-FoodCodeScanner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FoodCodeScanner-umbrella.h"; sourceTree = "<group>"; };
+		6811477332AADF00E1E69E0B853F0F58 /* GzipSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GzipSwift.debug.xcconfig; sourceTree = "<group>"; };
+		6E39B106BE2CD98F96FA1664E0CE4163 /* Pods-FoodCodeScanner-FoodCodeScannerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FoodCodeScanner-FoodCodeScannerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7B18AD2AB5DA70C966007F0BA4CB8D92 /* Pods-FoodCodeScanner-FoodCodeScannerUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FoodCodeScanner-FoodCodeScannerUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7DA3763DA59E2087D07848F21107EAF6 /* GzipSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GzipSwift-Info.plist"; sourceTree = "<group>"; };
+		84ABF0E73BEDB53DC540EE97981081FC /* Pods_FoodCodeScanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FoodCodeScanner.framework; path = "Pods-FoodCodeScanner.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8833D39DE22547CD5F84C1420F16F699 /* Pods-FoodCodeScanner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FoodCodeScanner-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2C7D551E24E9642739323CCDE59ACA0 /* GzipSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GzipSwift-umbrella.h"; sourceTree = "<group>"; };
+		A4D71AAF7A9876121AF7D2B4A230B87B /* Pods-FoodCodeScanner-FoodCodeScannerUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FoodCodeScanner-FoodCodeScannerUITests-Info.plist"; sourceTree = "<group>"; };
+		A8A5DAE5D0072A5B02A7137768FE1CEC /* Pods-FoodCodeScannerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FoodCodeScannerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AB214E067924C6698532E3D8573433D7 /* Pods-FoodCodeScanner-FoodCodeScannerUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FoodCodeScanner-FoodCodeScannerUITests-frameworks.sh"; sourceTree = "<group>"; };
+		B9974039583825572BC32A8B44A264A7 /* Pods-FoodCodeScanner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FoodCodeScanner.modulemap"; sourceTree = "<group>"; };
+		B9EC5688BAB123FFAA4834A44305F7A1 /* GzipSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GzipSwift-dummy.m"; sourceTree = "<group>"; };
+		BCD05F42B7022952792E83523DDDE3C8 /* Pods-FoodCodeScanner-FoodCodeScannerUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FoodCodeScanner-FoodCodeScannerUITests.modulemap"; sourceTree = "<group>"; };
+		BDF1CC5FD0D4F427A3FBA51B19F3D9F0 /* Pods-FoodCodeScannerTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FoodCodeScannerTests-umbrella.h"; sourceTree = "<group>"; };
+		BF2F91B727BE47EB7F1454FC424DCB33 /* Pods-FoodCodeScannerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FoodCodeScannerTests-dummy.m"; sourceTree = "<group>"; };
+		CD41A2499FA8E54C04ABEAB1FCE9F5E6 /* Pods-FoodCodeScannerTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FoodCodeScannerTests-Info.plist"; sourceTree = "<group>"; };
+		DC984BC77E83A1DF8B4269823A11EEB1 /* Pods-FoodCodeScanner-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FoodCodeScanner-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DCD30D686190EA8782114FCFE3AC7028 /* Pods-FoodCodeScanner-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FoodCodeScanner-acknowledgements.plist"; sourceTree = "<group>"; };
+		DDD40C0D25002629736F37FC5B1F4F81 /* Data+Gzip.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+Gzip.swift"; path = "Sources/Gzip/Data+Gzip.swift"; sourceTree = "<group>"; };
+		E0EAFB551C1EB359F232636B6C7968F6 /* Pods-FoodCodeScannerTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FoodCodeScannerTests.modulemap"; sourceTree = "<group>"; };
+		E4622499794CA812D6F1208D50188E46 /* Pods-FoodCodeScanner-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FoodCodeScanner-frameworks.sh"; sourceTree = "<group>"; };
+		EEEA9412E6121E42EF946E6067D29B93 /* Pods-FoodCodeScannerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FoodCodeScannerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FE1D0D706553D5BD684CFFF08A441CA8 /* Pods_FoodCodeScanner_FoodCodeScannerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FoodCodeScanner_FoodCodeScannerUITests.framework; path = "Pods-FoodCodeScanner-FoodCodeScannerUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06E9113E989352F941FD0227DC1E8E7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DAAF38DB2F536E9271A511A0014031B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		228140FDEF85E0F885A2BB2EBAD1326E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CD711681021B2E073F7950C75C0C3AD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25C68CFD55C1F375EEE8D4448171E85A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E15BB42C4309A1F5296DCA14D982E41C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BE61553070F550CFD934C55E34B4CDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F993FF45C750FB9929AE58714C8F3317 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30A7244E1B855EFCF6551E5D57F19FCE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3999637C09529CAD8853FF43F5EB2777 /* Pods-FoodCodeScanner */,
+				41A649DA095948CDB0ADB0C9F7647B67 /* Pods-FoodCodeScanner-FoodCodeScannerUITests */,
+				EDEC611D1BB79EDB9EBA3E0B78D2FF4D /* Pods-FoodCodeScannerTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3999637C09529CAD8853FF43F5EB2777 /* Pods-FoodCodeScanner */ = {
+			isa = PBXGroup;
+			children = (
+				B9974039583825572BC32A8B44A264A7 /* Pods-FoodCodeScanner.modulemap */,
+				DC984BC77E83A1DF8B4269823A11EEB1 /* Pods-FoodCodeScanner-acknowledgements.markdown */,
+				DCD30D686190EA8782114FCFE3AC7028 /* Pods-FoodCodeScanner-acknowledgements.plist */,
+				8833D39DE22547CD5F84C1420F16F699 /* Pods-FoodCodeScanner-dummy.m */,
+				E4622499794CA812D6F1208D50188E46 /* Pods-FoodCodeScanner-frameworks.sh */,
+				565EBA36CE07A6BD55C05FCCED13601C /* Pods-FoodCodeScanner-Info.plist */,
+				56FD3243B26E69E30CE5B8BDB81FF3F9 /* Pods-FoodCodeScanner-umbrella.h */,
+				2E8172AD2A00233EAC6237D096FCB443 /* Pods-FoodCodeScanner.debug.xcconfig */,
+				0C2722990B1DF305A6F8DF64651D0FAA /* Pods-FoodCodeScanner.release.xcconfig */,
+			);
+			name = "Pods-FoodCodeScanner";
+			path = "Target Support Files/Pods-FoodCodeScanner";
+			sourceTree = "<group>";
+		};
+		41A649DA095948CDB0ADB0C9F7647B67 /* Pods-FoodCodeScanner-FoodCodeScannerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BCD05F42B7022952792E83523DDDE3C8 /* Pods-FoodCodeScanner-FoodCodeScannerUITests.modulemap */,
+				7B18AD2AB5DA70C966007F0BA4CB8D92 /* Pods-FoodCodeScanner-FoodCodeScannerUITests-acknowledgements.markdown */,
+				040DB1A15C98D5F84AE608D237EC10CC /* Pods-FoodCodeScanner-FoodCodeScannerUITests-acknowledgements.plist */,
+				0E008C19015D0EE5E15DC85697237F0B /* Pods-FoodCodeScanner-FoodCodeScannerUITests-dummy.m */,
+				AB214E067924C6698532E3D8573433D7 /* Pods-FoodCodeScanner-FoodCodeScannerUITests-frameworks.sh */,
+				A4D71AAF7A9876121AF7D2B4A230B87B /* Pods-FoodCodeScanner-FoodCodeScannerUITests-Info.plist */,
+				4C421E6F69FFD16D9372F925B5DA6855 /* Pods-FoodCodeScanner-FoodCodeScannerUITests-umbrella.h */,
+				6E39B106BE2CD98F96FA1664E0CE4163 /* Pods-FoodCodeScanner-FoodCodeScannerUITests.debug.xcconfig */,
+				18BD6E58F3A000CB14AC163E09E8E30C /* Pods-FoodCodeScanner-FoodCodeScannerUITests.release.xcconfig */,
+			);
+			name = "Pods-FoodCodeScanner-FoodCodeScannerUITests";
+			path = "Target Support Files/Pods-FoodCodeScanner-FoodCodeScannerUITests";
+			sourceTree = "<group>";
+		};
+		454612572D23BBD5EB70D5DA4B316963 /* GzipSwift */ = {
+			isa = PBXGroup;
+			children = (
+				DDD40C0D25002629736F37FC5B1F4F81 /* Data+Gzip.swift */,
+				7C11C6C79A6995BFEF41258CE44BF90B /* Support Files */,
+			);
+			name = GzipSwift;
+			path = GzipSwift;
+			sourceTree = "<group>";
+		};
+		616560696F9CB97F2CDC2E39392CA110 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				454612572D23BBD5EB70D5DA4B316963 /* GzipSwift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7C11C6C79A6995BFEF41258CE44BF90B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3FBB27D302E5313C64F1C4053A518828 /* GzipSwift.modulemap */,
+				B9EC5688BAB123FFAA4834A44305F7A1 /* GzipSwift-dummy.m */,
+				7DA3763DA59E2087D07848F21107EAF6 /* GzipSwift-Info.plist */,
+				1E58FB476010D82605C4A87D8CA52DBB /* GzipSwift-prefix.pch */,
+				A2C7D551E24E9642739323CCDE59ACA0 /* GzipSwift-umbrella.h */,
+				6811477332AADF00E1E69E0B853F0F58 /* GzipSwift.debug.xcconfig */,
+				1241FE1566114EBC4C1A5CDB89DE5176 /* GzipSwift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GzipSwift";
+			sourceTree = "<group>";
+		};
+		C0686F72DF685ABDDFA323055B92C490 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				144D90AC44A6AE9000AE71A58E7D6234 /* Gzip.framework */,
+				84ABF0E73BEDB53DC540EE97981081FC /* Pods_FoodCodeScanner.framework */,
+				FE1D0D706553D5BD684CFFF08A441CA8 /* Pods_FoodCodeScanner_FoodCodeScannerUITests.framework */,
+				076596BA5E046B9AEB5978E0F53B87F6 /* Pods_FoodCodeScannerTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				616560696F9CB97F2CDC2E39392CA110 /* Pods */,
+				C0686F72DF685ABDDFA323055B92C490 /* Products */,
+				30A7244E1B855EFCF6551E5D57F19FCE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EDEC611D1BB79EDB9EBA3E0B78D2FF4D /* Pods-FoodCodeScannerTests */ = {
+			isa = PBXGroup;
+			children = (
+				E0EAFB551C1EB359F232636B6C7968F6 /* Pods-FoodCodeScannerTests.modulemap */,
+				EEEA9412E6121E42EF946E6067D29B93 /* Pods-FoodCodeScannerTests-acknowledgements.markdown */,
+				3FC7CC05BCF5B021E91A5D39A49FD382 /* Pods-FoodCodeScannerTests-acknowledgements.plist */,
+				BF2F91B727BE47EB7F1454FC424DCB33 /* Pods-FoodCodeScannerTests-dummy.m */,
+				CD41A2499FA8E54C04ABEAB1FCE9F5E6 /* Pods-FoodCodeScannerTests-Info.plist */,
+				BDF1CC5FD0D4F427A3FBA51B19F3D9F0 /* Pods-FoodCodeScannerTests-umbrella.h */,
+				A8A5DAE5D0072A5B02A7137768FE1CEC /* Pods-FoodCodeScannerTests.debug.xcconfig */,
+				34AD3BB0ACAC188075883595A505F0A8 /* Pods-FoodCodeScannerTests.release.xcconfig */,
+			);
+			name = "Pods-FoodCodeScannerTests";
+			path = "Target Support Files/Pods-FoodCodeScannerTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5E37FCD4AC296B67AD66EC1BA4F83654 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADDAF4463DFB2ECD76C36FACC14A2C6A /* Pods-FoodCodeScannerTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAC07B9F7FD6DDCEC51376995FD042B6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCFCCF089AA4D1FDB1125284E824BC6C /* Pods-FoodCodeScanner-FoodCodeScannerUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC732B97F8D53C499D46041DA33B1DEA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33A93F3C217C783914E37958EB3720D5 /* Pods-FoodCodeScanner-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1B5D27A9D67AAC9832B001F9252C124 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE60E80D355466904F1FDAE558DD3BD5 /* GzipSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		31B760029D19A905D33E43F3B55E3A90 /* Pods-FoodCodeScanner-FoodCodeScannerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFEA00A8BA7988C3A13BD78E26B629EE /* Build configuration list for PBXNativeTarget "Pods-FoodCodeScanner-FoodCodeScannerUITests" */;
+			buildPhases = (
+				AAC07B9F7FD6DDCEC51376995FD042B6 /* Headers */,
+				A7E4BE13FFEAA3EB3845687A509807FF /* Sources */,
+				25C68CFD55C1F375EEE8D4448171E85A /* Frameworks */,
+				AF7CCE7F037D77F96CDFF59C50B2A1B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD5132F02D73D69B6D0C16CD92133C43 /* PBXTargetDependency */,
+			);
+			name = "Pods-FoodCodeScanner-FoodCodeScannerUITests";
+			productName = "Pods-FoodCodeScanner-FoodCodeScannerUITests";
+			productReference = FE1D0D706553D5BD684CFFF08A441CA8 /* Pods_FoodCodeScanner_FoodCodeScannerUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8868051ECB7CB2E1A56270E3A6281973 /* GzipSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A57692E4AF13EFE7D41695CFF078CE62 /* Build configuration list for PBXNativeTarget "GzipSwift" */;
+			buildPhases = (
+				D1B5D27A9D67AAC9832B001F9252C124 /* Headers */,
+				C3C0086EE24D307CBE3CCAA31AB74ED7 /* Sources */,
+				06E9113E989352F941FD0227DC1E8E7A /* Frameworks */,
+				C94936E1012D63C47C2B68A61D2377BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GzipSwift;
+			productName = GzipSwift;
+			productReference = 144D90AC44A6AE9000AE71A58E7D6234 /* Gzip.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B0C51EB13373A19AF5A1D2BA49677E45 /* Pods-FoodCodeScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D3BA894B03D800CC0816842B3A0201D /* Build configuration list for PBXNativeTarget "Pods-FoodCodeScanner" */;
+			buildPhases = (
+				CC732B97F8D53C499D46041DA33B1DEA /* Headers */,
+				CE1D00D256E20630D14FB127B082A348 /* Sources */,
+				228140FDEF85E0F885A2BB2EBAD1326E /* Frameworks */,
+				1D8E4B3A8746A89A587EF0C06F1721E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				113F8661687FE6493266BBB543231341 /* PBXTargetDependency */,
+			);
+			name = "Pods-FoodCodeScanner";
+			productName = "Pods-FoodCodeScanner";
+			productReference = 84ABF0E73BEDB53DC540EE97981081FC /* Pods_FoodCodeScanner.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C19F6E162A2536E24F5B0A3471C2C89F /* Pods-FoodCodeScannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64885147D02257B21D9FC9D9E4B37462 /* Build configuration list for PBXNativeTarget "Pods-FoodCodeScannerTests" */;
+			buildPhases = (
+				5E37FCD4AC296B67AD66EC1BA4F83654 /* Headers */,
+				AE4AD540135B3E966758079C079FEED4 /* Sources */,
+				9BE61553070F550CFD934C55E34B4CDC /* Frameworks */,
+				A505E86FFAC326646FB33B2EEE94EB20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69742CF00BC56F12EB6CF20FABAE0C44 /* PBXTargetDependency */,
+			);
+			name = "Pods-FoodCodeScannerTests";
+			productName = "Pods-FoodCodeScannerTests";
+			productReference = 076596BA5E046B9AEB5978E0F53B87F6 /* Pods_FoodCodeScannerTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C0686F72DF685ABDDFA323055B92C490 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8868051ECB7CB2E1A56270E3A6281973 /* GzipSwift */,
+				B0C51EB13373A19AF5A1D2BA49677E45 /* Pods-FoodCodeScanner */,
+				31B760029D19A905D33E43F3B55E3A90 /* Pods-FoodCodeScanner-FoodCodeScannerUITests */,
+				C19F6E162A2536E24F5B0A3471C2C89F /* Pods-FoodCodeScannerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D8E4B3A8746A89A587EF0C06F1721E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A505E86FFAC326646FB33B2EEE94EB20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF7CCE7F037D77F96CDFF59C50B2A1B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C94936E1012D63C47C2B68A61D2377BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7E4BE13FFEAA3EB3845687A509807FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7B93C29356FEE0B40BEF16D23C8EE61 /* Pods-FoodCodeScanner-FoodCodeScannerUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE4AD540135B3E966758079C079FEED4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83BE21CB0BDFCC187C0E4959770B2520 /* Pods-FoodCodeScannerTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3C0086EE24D307CBE3CCAA31AB74ED7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D96C844A2DC0C2E38247A953D0FD97DF /* Data+Gzip.swift in Sources */,
+				0798C6BB0C582DFD3EBC05A7DA8E01FE /* GzipSwift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE1D00D256E20630D14FB127B082A348 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C955F369481D455882D25546353D6B6D /* Pods-FoodCodeScanner-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		113F8661687FE6493266BBB543231341 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GzipSwift;
+			target = 8868051ECB7CB2E1A56270E3A6281973 /* GzipSwift */;
+			targetProxy = E9645CFCCD2FD70EE8BAD8108AEF09E0 /* PBXContainerItemProxy */;
+		};
+		69742CF00BC56F12EB6CF20FABAE0C44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FoodCodeScanner";
+			target = B0C51EB13373A19AF5A1D2BA49677E45 /* Pods-FoodCodeScanner */;
+			targetProxy = 698993B5BD50967CFC782C59BACEBAD9 /* PBXContainerItemProxy */;
+		};
+		DD5132F02D73D69B6D0C16CD92133C43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GzipSwift;
+			target = 8868051ECB7CB2E1A56270E3A6281973 /* GzipSwift */;
+			targetProxy = 839D58D4E326E47EA99F1F8DCE8471AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2730D3F0FB94F447F80FCB30B7F2FC1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18BD6E58F3A000CB14AC163E09E8E30C /* Pods-FoodCodeScanner-FoodCodeScannerUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FoodCodeScanner-FoodCodeScannerUITests/Pods-FoodCodeScanner-FoodCodeScannerUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FoodCodeScanner-FoodCodeScannerUITests/Pods-FoodCodeScanner-FoodCodeScannerUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2F0349056F80F110C645FED71A76B227 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1241FE1566114EBC4C1A5CDB89DE5176 /* GzipSwift.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GzipSwift/GzipSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GzipSwift/GzipSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/GzipSwift/GzipSwift.modulemap";
+				PRODUCT_MODULE_NAME = Gzip;
+				PRODUCT_NAME = Gzip;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		378A3335A8566651D0E8969A3C948622 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E8172AD2A00233EAC6237D096FCB443 /* Pods-FoodCodeScanner.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FoodCodeScanner/Pods-FoodCodeScanner-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FoodCodeScanner/Pods-FoodCodeScanner.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5C2ADE1225E743043AC7CF1EF440968E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6811477332AADF00E1E69E0B853F0F58 /* GzipSwift.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GzipSwift/GzipSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GzipSwift/GzipSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/GzipSwift/GzipSwift.modulemap";
+				PRODUCT_MODULE_NAME = Gzip;
+				PRODUCT_NAME = Gzip;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		79227CA92552EF6E45947EDC1E077C6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34AD3BB0ACAC188075883595A505F0A8 /* Pods-FoodCodeScannerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FoodCodeScannerTests/Pods-FoodCodeScannerTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FoodCodeScannerTests/Pods-FoodCodeScannerTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8C256BCC8824A61FE0ADB8A48848E409 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8A5DAE5D0072A5B02A7137768FE1CEC /* Pods-FoodCodeScannerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FoodCodeScannerTests/Pods-FoodCodeScannerTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FoodCodeScannerTests/Pods-FoodCodeScannerTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DA74F5BA7EADF93CCF862B114215E8F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C2722990B1DF305A6F8DF64651D0FAA /* Pods-FoodCodeScanner.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FoodCodeScanner/Pods-FoodCodeScanner-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FoodCodeScanner/Pods-FoodCodeScanner.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ECB437504DF805BD96CAABF97400B526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		ECFF6502D2BE5108AC7FADC6A75F7386 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E39B106BE2CD98F96FA1664E0CE4163 /* Pods-FoodCodeScanner-FoodCodeScannerUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FoodCodeScanner-FoodCodeScannerUITests/Pods-FoodCodeScanner-FoodCodeScannerUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FoodCodeScanner-FoodCodeScannerUITests/Pods-FoodCodeScanner-FoodCodeScannerUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */,
+				ECB437504DF805BD96CAABF97400B526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64885147D02257B21D9FC9D9E4B37462 /* Build configuration list for PBXNativeTarget "Pods-FoodCodeScannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C256BCC8824A61FE0ADB8A48848E409 /* Debug */,
+				79227CA92552EF6E45947EDC1E077C6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D3BA894B03D800CC0816842B3A0201D /* Build configuration list for PBXNativeTarget "Pods-FoodCodeScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				378A3335A8566651D0E8969A3C948622 /* Debug */,
+				DA74F5BA7EADF93CCF862B114215E8F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A57692E4AF13EFE7D41695CFF078CE62 /* Build configuration list for PBXNativeTarget "GzipSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C2ADE1225E743043AC7CF1EF440968E /* Debug */,
+				2F0349056F80F110C645FED71A76B227 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFEA00A8BA7988C3A13BD78E26B629EE /* Build configuration list for PBXNativeTarget "Pods-FoodCodeScanner-FoodCodeScannerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECFF6502D2BE5108AC7FADC6A75F7386 /* Debug */,
+				2730D3F0FB94F447F80FCB30B7F2FC1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

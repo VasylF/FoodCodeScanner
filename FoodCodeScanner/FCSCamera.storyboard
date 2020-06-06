@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Camera View Controller-->
+        <scene sceneID="G2r-6H-GNo">
+            <objects>
+                <viewController storyboardIdentifier="FCSCameraViewController" id="deB-6J-0sd" customClass="FCSCameraViewController" customModule="FoodCodeScanner" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QwG-JT-1b5">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I3K-Cm-eJ1">
+                                <rect key="frame" x="132" y="812" width="150" height="30"/>
+                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="lKL-LF-geZ"/>
+                                </constraints>
+                                <state key="normal" title="Make a photo">
+                                    <color key="titleColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="makePhotoButtonPressed:" destination="deB-6J-0sd" eventType="touchUpInside" id="Nux-FA-8sm"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0oO-JB-SvM">
+                                <rect key="frame" x="20" y="44" width="374" height="579"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="hWi-Io-MT9" firstAttribute="trailing" secondItem="0oO-JB-SvM" secondAttribute="trailing" constant="20" id="1I1-MT-QzB"/>
+                            <constraint firstItem="hWi-Io-MT9" firstAttribute="bottom" secondItem="I3K-Cm-eJ1" secondAttribute="bottom" constant="20" id="E7v-wM-gDx"/>
+                            <constraint firstItem="0oO-JB-SvM" firstAttribute="top" secondItem="hWi-Io-MT9" secondAttribute="top" id="GFu-J1-MJj"/>
+                            <constraint firstItem="0oO-JB-SvM" firstAttribute="leading" secondItem="hWi-Io-MT9" secondAttribute="leading" constant="20" id="GGY-1y-Mwn"/>
+                            <constraint firstItem="I3K-Cm-eJ1" firstAttribute="centerX" secondItem="QwG-JT-1b5" secondAttribute="centerX" id="O5K-m9-sy1"/>
+                            <constraint firstItem="0oO-JB-SvM" firstAttribute="height" secondItem="QwG-JT-1b5" secondAttribute="height" multiplier="0.646205" id="d1d-xa-NXF"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="hWi-Io-MT9"/>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="0oO-JB-SvM" id="g3h-XV-IeQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oAI-CM-wI1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-69.565217391304358" y="35.491071428571423"/>
+        </scene>
+    </scenes>
+</document>
