@@ -19,7 +19,6 @@
 		F644501A248BD2B500B00F6B /* ProductItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6445019248BD2B500B00F6B /* ProductItem.swift */; };
 		F64979722463531400EB5CED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64979712463531400EB5CED /* AppDelegate.swift */; };
 		F64979742463531400EB5CED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64979732463531400EB5CED /* SceneDelegate.swift */; };
-		F64979772463531400EB5CED /* FoodCodeScanner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F64979752463531400EB5CED /* FoodCodeScanner.xcdatamodeld */; };
 		F649797B2463531600EB5CED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F649797A2463531600EB5CED /* Assets.xcassets */; };
 		F649797E2463531600EB5CED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F649797D2463531600EB5CED /* Preview Assets.xcassets */; };
 		F64979812463531600EB5CED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F649797F2463531600EB5CED /* LaunchScreen.storyboard */; };
@@ -485,7 +484,6 @@
 				F644501A248BD2B500B00F6B /* ProductItem.swift in Sources */,
 				F6FD55B9246966F4002C52FB /* QRScannerController.swift in Sources */,
 				F64979742463531400EB5CED /* SceneDelegate.swift in Sources */,
-				F64979772463531400EB5CED /* FoodCodeScanner.xcdatamodeld in Sources */,
 				F6445015248B91E200B00F6B /* UITableView.swift in Sources */,
 				F6445008248AB41400B00F6B /* FCSPriceListViewController.swift in Sources */,
 				F6445017248B929200B00F6B /* UIView.swift in Sources */,
