@@ -23,5 +23,5 @@ jobs:
     - name: Spell check
       run: |
         brew install mint
-        mint install ezura/spell-checker-for-swift@5.0.0
+        mint install ezura/spell-checker-for-swift@5.2.0
         chmod +x Scripts/spell_check.sh
