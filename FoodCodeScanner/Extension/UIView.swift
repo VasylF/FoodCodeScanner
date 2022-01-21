@@ -17,7 +17,7 @@ extension UIView {
         return UINib(nibName: identifier, bundle: Bundle(for: self))
     }
     
-    func closeBuuton() {
+    func closeBuasdfnalsdfjhalsdfhjaosdfhalksdfhalksdfuton() {
         print("sad")
     }
 }
