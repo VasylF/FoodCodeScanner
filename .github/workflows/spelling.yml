@@ -22,4 +22,3 @@ jobs:
     - name: Spell check
       run: |
         chmod +x Scripts/SpellCheck.sh
-         shell: bash
