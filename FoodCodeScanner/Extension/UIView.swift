@@ -16,8 +16,9 @@ extension UIView {
     class var nib: UINib {
         return UINib(nibName: identifier, bundle: Bundle(for: self))
     }
-    
-    func closeBuasdfnalsdfjhalsdfhjaosdfhalksdfhalksdfuton() {
+    fuf afdfasdfasdf() {
+    }
+    func closeBuasdfnalsdfjhadsfsadflsdfhjaosdfhalksdfhalksdfuton() {
         print("sad")
     }
 }
