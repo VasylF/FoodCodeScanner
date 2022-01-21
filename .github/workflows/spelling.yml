@@ -9,16 +9,16 @@ on:
   # Allows you to run this workflow manually from the Actions tab
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
-  build:
-    # The type of runner that the job will run on
-    runs-on: macos-11
+  misspell:
+    name: Check
+    runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - uses: n1hility/cancel-previous-runs@v2
+    - name: Check out code
+      uses: actions/checkout@v2
+    - name: Check for spelling errors
+      uses: reviewdog/action-misspell@v1
       with:
-        token: ${{ secrets.MANUAL_ACTION_TOKEN }}
-  
-    - name: Spell check
-      run: |
-        chmod +x Scripts/SpellCheck.sh
+        exclude: ./vendor/*
+        fail_on_error: true
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        reporter: github-check
