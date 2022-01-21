@@ -19,5 +19,5 @@ jobs:
           commit-message: "chore: fix typos by misspell-fixer"
           title: "chore: fix typos by misspell-fixer for ${{ github.actor }} on ${{ github.ref }}"
           assignees: ${{ github.actor }}
-          reviewers: ${{ github.actor }}
+          reviewers: ${{ github.actor }} 
           branch: "auto-pr/misspell-fixer/${{ github.ref }}"
