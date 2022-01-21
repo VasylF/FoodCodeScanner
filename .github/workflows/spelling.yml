@@ -5,8 +5,8 @@ on:
   push:
     branches: [ master ]
     paths-ignore:
-      - 'Pods/**'
-      - 'Scripts/**'
+      - 'FoodCodeScanner/Pods/**'
+      - 'FoodCodeScanner/Scripts/**'
     
 #   pull_request:
 #     branches: [ master ]
