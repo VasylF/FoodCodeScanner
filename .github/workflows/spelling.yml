@@ -6,11 +6,17 @@ on:
     - master
 
 jobs:
-  misspell-fixer:
+ shellcheck:
+    name: runner / shellcheck
     runs-on: ubuntu-latest
     steps:
-     - uses: actions/checkout@v2
-     - uses: sobolevn/misspell-fixer-action@master
-     - uses: peter-evans/create-pull-request@v2.4.4
-       with:
-         token: ${{ secrets.GITHUB_TOKEN }} 
+      - uses: actions/checkout@v1
+      - name: shellcheck
+        uses: reviewdog/action-shellcheck@v1
+        with:
+          github_token: ${{ secrets.github_token }}
+          reporter: github-pr-review # Change reporter.
+          path: "." # Optional.
+          pattern: "*.sh" # Optional.
+          exclude: "./.git/*" # Optional.
+          check_all_files_with_shebangs: "false" # Optional.
