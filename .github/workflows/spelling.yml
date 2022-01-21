@@ -27,4 +27,4 @@ jobs:
     - name: Spell check
       run: |
         brew install mint
-        sudo Scripts/spell_check.sh
+        chmod +x Scripts/spell_check.sh
