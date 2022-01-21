@@ -18,4 +18,5 @@ jobs:
     steps:
     - name: Spell check
       run: |
-        chmod +x "${GITHUB_WORKSPACE}/Scripts/SpellCheck.sh"
+        brew install mint
+        chmod +x Scripts/SpellCheck.sh
