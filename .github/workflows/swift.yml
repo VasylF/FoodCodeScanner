@@ -11,17 +11,14 @@ on:
 
 jobs:
 
-  setup:
-    runs-on: macos-11
+  misspell:
+    name: runner / misspell
+    runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@master
-    - uses: n1hility/cancel-previous-runs@v2
-      with:
-        token: ${{ secrets.MANUAL_ACTION_TOKEN }}
-
-
-    - name: Spell check
-      run: |
-        brew install mint
-        mint install ezura/spell-checker-for-swift@5.2.0
-        chmod +x Scripts/spell_check.sh
+      - name: Check out code.
+        uses: actions/checkout@v2
+      - name: misspell
+        uses: reviewdog/action-misspell@v1
+        with:
+          github_token: ${{ secrets.github_token }}
+          locale: "US"
