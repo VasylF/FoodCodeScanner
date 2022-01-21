@@ -1,23 +1,26 @@
-name: Spellcheck
 # Controls when the action will run.
+name: Spellcheck
+
 on:
-  # Triggers the workflow on push or pull request events but only for the main branch
-  push:
-    branches: [ master ]
   pull_request:
-    branches: [ master ]
-  # Allows you to run this workflow manually from the Actions tab
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+    types: [opened, synchronize, reopened]
+
+  push:
+    branches:
+    - master
+
 jobs:
-  misspell:
-    name: Check
-    runs-on: ubuntu-latest
+
+  setup:
+    runs-on: macos-11
     steps:
-    - name: Check out code
-      uses: actions/checkout@master
-    - name: Check for spelling errors
-      uses: reviewdog/action-misspell@v1
+    - uses: actions/checkout@v2
+    - uses: n1hility/cancel-previous-runs@v2
       with:
-        fail_on_error: true
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        reporter: github-check
+        token: ${{ secrets.MANUAL_ACTION_TOKEN }}
+
+
+    - name: Spell check
+      run: |
+        brew install mint
+        Scripts/spell_check.sh
