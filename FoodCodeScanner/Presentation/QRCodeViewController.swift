@@ -8,7 +8,7 @@
 
 import UIKit
 
-class QRCodeViewController: UIViewControlsdfasdfasfdasdfasdfler {
+class QRCodeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
