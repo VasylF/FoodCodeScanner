@@ -18,5 +18,4 @@ jobs:
     steps:
     - name: Spell check
       run: |
-        brew install mint
         chmod +x Scripts/SpellCheck.sh
