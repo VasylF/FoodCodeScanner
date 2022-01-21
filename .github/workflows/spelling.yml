@@ -4,14 +4,20 @@ on:
   push:
     branches:
     - master
+
 jobs:
-  providers:
+  misspell-fixer:
     runs-on: ubuntu-latest
-    
     steps:
-      - name: Check out code
-        uses: actions/checkout@v2
-      - name: Run tests with Thread Sanitizer
-        timeout-minutes: 10
-        run: swift test --enable-test-discovery --sanitize=thread
- 
+      - uses: actions/checkout@v2
+      - uses: sobolevn/misspell-fixer-action@master
+      - name: "Check diff"
+        run: git diff --exit-code ${{ github.sha }}
+      - uses: peter-evans/create-pull-request@v3.10.0
+        if: failure()
+        with:
+          commit-message: "chore: fix typos by misspell-fixer"
+          title: "chore: fix typos by misspell-fixer for ${{ github.actor }} on ${{ github.ref }}"
+          assignees: ${{ github.actor }}
+          reviewers: ${{ github.actor }}
+          branch: "auto-pr/misspell-fixer/${{ github.ref }}"
