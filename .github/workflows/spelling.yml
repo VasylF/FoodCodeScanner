@@ -9,15 +9,8 @@ jobs:
   misspell-fixer:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master
-      - uses: sobolevn/misspell-fixer-action@master
-      - name: "Check diff"
-        run: git diff --exit-code ${{ github.sha }}
-      - uses: peter-evans/create-pull-request@v3.10.0
-        if: failure()
-        with:
-          commit-message: "chore: fix typos by misspell-fixer"
-          title: "chore: fix typos by misspell-fixer for ${{ github.actor }} on ${{ github.ref }}"
-          assignees: ${{ github.actor }}
-          reviewers: ${{ github.actor }} 
-          branch: "auto-pr/misspell-fixer/${{ github.ref }}"
+     - uses: actions/checkout@v2
+     - uses: sobolevn/misspell-fixer-action@master
+     - uses: peter-evans/create-pull-request@v2.4.4
+       with:
+         token: ${{ secrets.GITHUB_TOKEN }} 
