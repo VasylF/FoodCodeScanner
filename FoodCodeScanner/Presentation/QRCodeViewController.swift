@@ -15,6 +15,8 @@ class QRCodeViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
+    
+    let buuton: Int = 9
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
