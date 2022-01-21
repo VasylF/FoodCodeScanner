@@ -18,4 +18,4 @@ jobs:
     steps:
     - name: Spell check
       run: |
-        chmod +x Scripts/SpellCheck.sh
+        chmod +x "${GITHUB_WORKSPACE}/.github/Scripts/SpellCheck.sh"
