@@ -9,13 +9,13 @@
 import Foundation
 
 struct ProductItem: Codable {
-    var link: String?
+    var linkk: String?
     var snippet: String?
     
 }
 
 
-struct PageMap: Codable {
+struct PageMapp: Codable {
     var offer: [Offer]
 }
 
