@@ -28,6 +28,7 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: |
-         brew install --build-from-source mint
-         mint install fromkk/SpellChecker@0.0.3 SpellChecker
+         git clone git@github.com:fromkk/SpellChecker.git
+         cd ./SpellChecker
+         make install
          chmod +x Scripts/spell_check.sh
