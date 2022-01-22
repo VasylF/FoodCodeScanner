@@ -1,34 +1,22 @@
-name: Spellcheck
-# Controls when the action will run.
+name: test
 on:
-  # Triggers the workflow on push or pull request events but only for the main branch
-  push:
-    branches: [ master ]
   pull_request:
-    branches: [ master ]
-  # Allows you to run this workflow manually from the Actions tab
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+  push:
+    branches:
+    - master
+
 jobs:
-  spelling:
-    name: Spell checking
+ shellcheck:
+    name: runner / shellcheck
     runs-on: ubuntu-latest
     steps:
-    - name: checkout-merge
-      if: "contains(github.event_name, 'pull_request')"
-      uses: actions/checkout@v2
-      with:
-        ref: refs/pull/${{github.event.pull_request.number}}/merge
-    - name: checkout
-      if: ${{ github.event_name == 'push' ||
-        (
-          contains(github.event.comment.body, '@check-spelling-bot apply')
-        ) }}
-      uses: actions/checkout@master
-    - uses: check-spelling/check-spelling@main
-      id: spelling
-      if: ${{ github.event_name != 'issue_comment' ||
-        (
-          contains(github.event.comment.body, '@check-spelling-bot apply')
-        ) }}
-      with:
-        experimental_apply_changes_via_bot: 1
+      - uses: actions/checkout@v1
+      - name: shellcheck
+        uses: reviewdog/action-shellcheck@v1
+        with:
+          github_token: ${{ secrets.github_token }}
+          reporter: github-pr-review # Change reporter.
+#           path: "." # Optional.
+#           pattern: "*.sh" # Optional.
+#           exclude: "./.git/*" # Optional.
+#           check_all_files_with_shebangs: "false" # Optional.

@@ -19,6 +19,7 @@ class FCSCameraViewController: UIViewController {
     @IBAction private func makePhotoButtonPressed(_ sender: Any) {
         createAndPresentImageController()
     }
+    //fux
     
     private func createAndPresentImageController() {
         guard UIImagePickerController.isSourceTypeAvailable(.camera) else { return createAndPresentAlert() }
