@@ -248,6 +248,7 @@
 				F649796B2463531400EB5CED /* Frameworks */,
 				F649796C2463531400EB5CED /* Resources */,
 				E45BD1C62E59DC34721BA03D /* [CP] Embed Pods Frameworks */,
+				818F4458279B81CD004BA77B /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -432,6 +433,23 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FoodCodeScanner-FoodCodeScannerUITests/Pods-FoodCodeScanner-FoodCodeScannerUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		818F4458279B81CD004BA77B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which typokana >/dev/null; then\n  typokana --diff-only\nelse\n  echo \"`typokana` is not installed.\"\nfi\n";
 		};
 		E45BD1C62E59DC34721BA03D /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
